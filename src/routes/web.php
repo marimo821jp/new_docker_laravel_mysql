@@ -12,5 +12,8 @@
 */
 
 Route::get('/', function () {
+
+    $aa = 9;
+    $ab = 12;
     return view('welcome');
 });
